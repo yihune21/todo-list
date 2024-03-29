@@ -16,8 +16,8 @@ mongoose
   .connect(
     "mongodb+srv://admin-yihune:Test123@cluster0.ciswpxm.mongodb.net/todolistDB",
     {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
+      // useNewUrlParser: true,
+      // useUnifiedTopology: true,
     }
   )
   .then(() => console.log("Database connected!"))
